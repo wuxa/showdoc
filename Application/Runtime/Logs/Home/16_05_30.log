@@ -1,0 +1,3240 @@
+[ 2016-05-30T09:09:06+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0160s ]
+SQL: SELECT * FROM `item`  [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: login_user D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 11 行.
+NOTIC: [8] Undefined variable: login_user D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 14 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\fbd4024b257c0eb32531d23fc561bc4e.php 第 5 行.
+NOTIC: [8] Undefined index: login_user D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\fbd4024b257c0eb32531d23fc561bc4e.php 第 50 行.
+NOTIC: [8] Undefined index: login_user D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\fbd4024b257c0eb32531d23fc561bc4e.php 第 84 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.018003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.018003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:09:08+08:00 ] 127.0.0.1 /index.php/Home/Item/Show?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `user` [ RunTime:0.0125s ]
+SQL: SELECT * FROM `user` WHERE ( cookie_token = '4cfc469aa75172d2427390ecb89c5fa7'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0015s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0115s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\933c8d22c4cc45c26122eb4fbf6193d9.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T09:09:10+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '70'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:15:05+08:00 ] 127.0.0.1 /index.php/Home/Page/edit?item_id=8&type=new
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  author_uid ='2' and 8 = '8'  ) ORDER BY  addtime desc  LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:15:05+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:15:08+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '70'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T09:15:10+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '70'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:15:10+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T09:15:15+08:00 ] 127.0.0.1 /index.php/Home/Item/show?item_id=8&page_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:15:15+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '70'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T09:15:17+08:00 ] 127.0.0.1 /index.php/Home/Page/edit?item_id=8&type=new
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  author_uid ='2' and 8 = '8'  ) ORDER BY  addtime desc  LIMIT 1   [ RunTime:0.0000s ]
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:15:17+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:17:10+08:00 ] 127.0.0.1 /index.php/Home/Page/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: INSERT INTO `page` (`page_title`,`page_content`,`order`,`item_id`,`cat_id`,`addtime`,`author_uid`,`author_username`) VALUES ('签到信息','简要描述：
+
+- 签到信息
+
+  
+**请求方法：**
+- m_user_sign_daily_info 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|uid |是  |int |用户uid|
+|secret |是  |string |登录秘钥(登录时返回secret)|
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;217df586-4781-4726-aaa7-956a02dbc74b&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;data&quot;:{
+            &quot;days&quot;:&quot;0&quot;,
+            &quot;today_status&quot;:1
+        }
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |请求状态 0 失败 1 成功  |
+|data |array   |返回信息|
+
+**返回data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|days |int   |累积已签到天数 |
+|today_status |int   |今日是否签到(0 否 1 是)|
+
+','99','8','11','1464571030','2','admin') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0005s ]
+SQL: UPDATE `item` SET `last_update_time`='1464571030' WHERE (  item_id = '8'  ) [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '71'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2016-05-30T09:17:10+08:00 ] 127.0.0.1 /index.php/Home/item/show?page_id=71&item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0030s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:17:10+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '71'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:17:11+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '70'  ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:17:14+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '71'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T09:17:18+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '70'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:17:40+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '69'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T09:17:41+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=68
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '68'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T09:17:43+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=67
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '67'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:17:46+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '66'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T09:17:47+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=65
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '65'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:17:50+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=66
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '66'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:17:51+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=64
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '64'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:17:53+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=62
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '62'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:17:57+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=61
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '61'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:18:03+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=59
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '59'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T09:18:09+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '63'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T10:17:39+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '63'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T10:17:40+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:17:46+08:00 ] 127.0.0.1 /index.php/Home/page/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '63'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page_history` [ RunTime:0.0530s ]
+SQL: INSERT INTO `page_history` (`page_id`,`item_id`,`cat_id`,`page_title`,`page_content`,`order`,`addtime`,`author_uid`,`author_username`) VALUES ('63','8','11','关注列表','简要描述：
+
+- 关注列表
+
+  
+**请求方法：**
+- m_user_myfollowing 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|uid |是  |int |用户uid   |
+|page_id	  |是  |int |	第几页    |
+|perpage     |是  |int | 每页的数量    |
+
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;88dc42ff-a304-4f2b-8aab-a66c681aa7ef&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;data&quot;:{
+            &quot;roominfo&quot;:{
+                &quot;rooms&quot;:[
+                    {
+                        &quot;id&quot;:&quot;101052&quot;,
+                        &quot;status&quot;:&quot;1&quot;,
+                        &quot;start_time&quot;:&quot;2015-12-05 08:58:58&quot;,
+                        &quot;poster_url&quot;:&quot;photo_52187ea1bda30.jpg&quot;,
+                        &quot;poster_url2&quot;:&quot;&quot;,
+                        &quot;type&quot;:&quot;1&quot;,
+                        &quot;name&quot;:&quot;aaa&quot;,
+                        &quot;v&quot;:false,
+                        &quot;hifi&quot;:&quot;0&quot;,
+                        &quot;style&quot;:&quot;0&quot;,
+                        &quot;anchors&quot;:[
+                            &quot;100000103&quot;
+                        ],
+                        &quot;online&quot;:&quot;0&quot;
+                    }
+                ],
+                &quot;anchors&quot;:{
+                    &quot;100000103&quot;:{
+                        &quot;id&quot;:&quot;100000103&quot;,
+                        &quot;cost_level&quot;:&quot;0&quot;,
+                        &quot;received_level&quot;:&quot;33&quot;,
+                        &quot;icon&quot;:&quot;1000001031373278588.jpg&quot;,
+                        &quot;username&quot;:&quot;pei521008176&quot;,
+                        &quot;nickname&quot;:&quot;An安美娜❤&quot;,
+                        &quot;user_type&quot;:&quot;anchor&quot;,
+                        &quot;tag&quot;:&quot;&quot;,
+                        &quot;vip_lv&quot;:&quot;0&quot;,
+                        &quot;sort_index&quot;:&quot;0&quot;,
+                        &quot;is_stealth&quot;:&quot;0&quot;
+                    }
+                }
+            },
+            &quot;maxpage&quot;:1,
+            &quot;count&quot;:1
+        }
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|msg |string   |返回说明  |
+|s |int   |请求状态 0 失败 1 成功  |
+|roominfo |array   |房间信息  |
+|maxpage |int   |最大页数|
+|count |int   |总数量|
+
+ **返回rooms参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|id |int   |房间号  |
+|status |string   |直播状态(4：未直播，1:正在直播)  |
+|start_time |string   |开始直播时间  |
+|poster_url |string   |海报图片路径  |
+|poster_url2 |string   |海报图片路径2  |
+|type |string   |房间类型  |
+|name |string   |房间名字  |
+|v |string   |房间认证  |
+|hifi |int   |视频分辨率(1 高清直播， 0 非高清)  |
+|style |int   |直播类型(直播间类型 0 = 普通单主播直播间，1 = 大视频直播间，2=家族直播间)  |
+|anchors |array   |主播ID  |
+|online |string   |房间在线观众人数  |
+
+ **返回anchors参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|id |int   |用户uid  |
+|cost_level |int   |财富等级  |
+|received_level |int   |明星等级  |
+|icon |string   |头像图片名称  |
+|username |string   |用户名 |
+|nickname |string   |昵称  |
+|user_type |string   |用户类型  |
+|tag |string   |用户标签  |
+|vip_lv |int   |用户vip等级  |
+|sort_index |int   |未知|
+|is_stealth |int   |0  |
+
+','99','1464316965','2','admin') [ RunTime:0.0140s ]
+SQL: UPDATE `page` SET `page_title`='关注列表',`page_content`='简要描述：
+
+- 关注列表
+
+  
+**请求方法：**
+- m_user_myfollowing 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|uid |是  |int |用户uid   |
+|page_id	  |是  |int |	第几页    |
+|perpage     |是  |int | 每页的数量    |
+
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;88dc42ff-a304-4f2b-8aab-a66c681aa7ef&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;data&quot;:{
+            &quot;roominfo&quot;:{
+                &quot;rooms&quot;:[
+                    {
+                        &quot;id&quot;:&quot;101052&quot;,
+                        &quot;status&quot;:&quot;1&quot;,
+                        &quot;start_time&quot;:&quot;2015-12-05 08:58:58&quot;,
+                        &quot;poster_url&quot;:&quot;photo_52187ea1bda30.jpg&quot;,
+                        &quot;poster_url2&quot;:&quot;&quot;,
+                        &quot;type&quot;:&quot;1&quot;,
+                        &quot;name&quot;:&quot;aaa&quot;,
+                        &quot;v&quot;:false,
+                        &quot;hifi&quot;:&quot;0&quot;,
+                        &quot;style&quot;:&quot;0&quot;,
+                        &quot;anchors&quot;:[
+                            &quot;100000103&quot;
+                        ],
+                        &quot;online&quot;:&quot;0&quot;
+                    }
+                ],
+                &quot;anchors&quot;:{
+                    &quot;100000103&quot;:{
+                        &quot;id&quot;:&quot;100000103&quot;,
+                        &quot;cost_level&quot;:&quot;0&quot;,
+                        &quot;received_level&quot;:&quot;33&quot;,
+                        &quot;icon&quot;:&quot;1000001031373278588.jpg&quot;,
+                        &quot;username&quot;:&quot;pei521008176&quot;,
+                        &quot;nickname&quot;:&quot;An安美娜❤&quot;,
+                        &quot;user_type&quot;:&quot;anchor&quot;,
+                        &quot;tag&quot;:&quot;&quot;,
+                        &quot;vip_lv&quot;:&quot;0&quot;,
+                        &quot;sort_index&quot;:&quot;0&quot;,
+                        &quot;is_stealth&quot;:&quot;0&quot;
+                    }
+                }
+            },
+            &quot;maxpage&quot;:1,
+            &quot;count&quot;:1
+        }
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|msg |string   |返回说明  |
+|s |int   |请求状态 0 失败 1 成功  |
+|roominfo |array   |房间信息  |
+|maxpage |int   |最大页数|
+|count |int   |总数量|
+
+ **返回rooms参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|id |int   |房间号  |
+|status |string   |直播状态(4：未直播，1:正在直播)  |
+|start_time |string   |开始直播时间  |
+|poster_url |string   |海报图片路径  |
+|poster_url2 |string   |海报图片路径2  |
+|type |string   |房间类型  |
+|name |string   |房间名字  |
+|v |string   |房间认证  |
+|hifi |int   |视频分辨率(1 高清直播， 0 非高清)  |
+|style |int   |直播类型(直播间类型 0 = 普通单主播直播间，1 = 大视频直播间，2=家族直播间)  |
+|anchors |array   |主播ID  |
+|online |string   |房间在线观众人数  |
+
+ **返回anchors参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|id |int   |用户uid  |
+|cost_level |int   |财富等级  |
+|received_level |int   |明星等级  |
+|icon |string   |头像图片名称  |
+|username |string   |用户名 |
+|nickname |string   |昵称  |
+|user_type |string   |用户类型  |
+|tag |string   |用户标签  |
+|vip_lv |int   |用户vip等级  |
+|sort_index |int   |未知|
+|is_stealth |int   |0  |',`order`='99',`item_id`='8',`cat_id`='11',`addtime`='1464574666',`author_uid`='2',`author_username`='admin' WHERE (  page_id = '63'  ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: UPDATE `item` SET `last_update_time`='1464574666' WHERE (  item_id = '8'  ) [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '63'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T10:17:46+08:00 ] 127.0.0.1 /index.php/Home/item/show?page_id=63&item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T10:17:46+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '63'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T10:17:49+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '63'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:17:49+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0030s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T10:17:51+08:00 ] 127.0.0.1 /index.php/Home/Item/show?item_id=8&page_id=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T10:17:51+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=63
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '63'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T10:17:52+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=70
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '70'  ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T10:17:53+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000501s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '69'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T10:17:55+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '69'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T10:17:55+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001501s ]
+
+[ 2016-05-30T10:17:59+08:00 ] 127.0.0.1 /index.php/Home/Item/show?item_id=8&page_id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-05-30T10:17:59+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=69
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '69'  ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T10:18:00+08:00 ] 127.0.0.1 /index.php/Home/Page/edit?item_id=8&type=new
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  author_uid ='2' and 8 = '8'  ) ORDER BY  addtime desc  LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:18:00+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0020s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:52:40+08:00 ] 127.0.0.1 /index.php/Home/Page/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: INSERT INTO `page` (`page_title`,`page_content`,`order`,`item_id`,`cat_id`,`addtime`,`author_uid`,`author_username`) VALUES ('任务列表','简要描述：
+
+- 任务列表
+
+  
+**请求方法：**
+- m_room_guards 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|anchor_id |是  |int |主播id|
+|room_id |是  |int |房间id|
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;189ce5ca-5651-4d98-bed7-3200a2919463&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;data&quot;:{
+            &quot;data&quot;:[
+                {
+                    &quot;id&quot;:&quot;100488329&quot;,
+                    &quot;nickname&quot;:&quot;兰花草@&quot;,
+                    &quot;icon&quot;:&quot;1004883291396278410.jpg&quot;,
+                    &quot;level&quot;:&quot;2&quot;,
+                    &quot;type&quot;:&quot;2&quot;,
+                    &quot;is_year&quot;:&quot;1&quot;,
+                    &quot;end_time&quot;:&quot;2018-11-25 17:02:56&quot;,
+                    &quot;cost_level&quot;:&quot;8&quot;,
+                    &quot;days_remain&quot;:912,
+                    &quot;ol&quot;:0
+                }
+            ],
+            &quot;sum&quot;:5,
+            &quot;online_num&quot;:0
+        }
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |请求状态 0 失败 1 成功  |
+|data |array   |守护信息|
+
+ **返回result-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|data |array   |守护列表  |
+|sum |int   |守护总人数 |
+|online_num |int   |在线守护总人数|
+
+ **返回result-&gt;data-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|id |int   |用户ID  |
+|nickname |string   |昵称 |
+|icon |string   |头像图片名称 |
+|level |int   |等级(0-7) |
+|type |int   |类型 (1 普通 2 年费)  |
+|is_year |int   |年守护 (0 否 1 是 ） |
+|end_time |string   |守护到期时间  |
+|cost_level |int   |财富等级  |
+|days_remain |int   |还剩多长时间到期|
+|ol |int   |排序 1 排在前排   |','99','8','11','1464576760','2','admin') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: UPDATE `item` SET `last_update_time`='1464576760' WHERE (  item_id = '8'  ) [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '72'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:52:40+08:00 ] 127.0.0.1 /index.php/Home/item/show?page_id=72&item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:52:40+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '72'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T10:59:03+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '72'  ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T10:59:03+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T11:17:37+08:00 ] 127.0.0.1 /index.php/Home/page/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '72'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page_history` [ RunTime:0.0010s ]
+SQL: INSERT INTO `page_history` (`page_id`,`item_id`,`cat_id`,`page_title`,`page_content`,`order`,`addtime`,`author_uid`,`author_username`) VALUES ('72','8','11','任务列表','简要描述：
+
+- 任务列表
+
+  
+**请求方法：**
+- m_room_guards 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|anchor_id |是  |int |主播id|
+|room_id |是  |int |房间id|
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;189ce5ca-5651-4d98-bed7-3200a2919463&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;data&quot;:{
+            &quot;data&quot;:[
+                {
+                    &quot;id&quot;:&quot;100488329&quot;,
+                    &quot;nickname&quot;:&quot;兰花草@&quot;,
+                    &quot;icon&quot;:&quot;1004883291396278410.jpg&quot;,
+                    &quot;level&quot;:&quot;2&quot;,
+                    &quot;type&quot;:&quot;2&quot;,
+                    &quot;is_year&quot;:&quot;1&quot;,
+                    &quot;end_time&quot;:&quot;2018-11-25 17:02:56&quot;,
+                    &quot;cost_level&quot;:&quot;8&quot;,
+                    &quot;days_remain&quot;:912,
+                    &quot;ol&quot;:0
+                }
+            ],
+            &quot;sum&quot;:5,
+            &quot;online_num&quot;:0
+        }
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |请求状态 0 失败 1 成功  |
+|data |array   |守护信息|
+
+ **返回result-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|data |array   |守护列表  |
+|sum |int   |守护总人数 |
+|online_num |int   |在线守护总人数|
+
+ **返回result-&gt;data-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|id |int   |用户ID  |
+|nickname |string   |昵称 |
+|icon |string   |头像图片名称 |
+|level |int   |等级(0-7) |
+|type |int   |类型 (1 普通 2 年费)  |
+|is_year |int   |年守护 (0 否 1 是 ） |
+|end_time |string   |守护到期时间  |
+|cost_level |int   |财富等级  |
+|days_remain |int   |还剩多长时间到期|
+|ol |int   |排序 1 排在前排   |','99','1464576760','2','admin') [ RunTime:0.0005s ]
+SQL: UPDATE `page` SET `page_title`='任务列表',`page_content`='简要描述：
+
+- 任务列表
+
+  
+**请求方法：**
+- m_user_task_list 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|uid |是  |int |用户uid|
+
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;3b573afa-853d-4595-911f-f9cb1bd9541f&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;data&quot;:{
+            &quot;tasklist&quot;:[
+                {
+                    &quot;task_id&quot;:&quot;1&quot;,
+                    &quot;icon&quot;:&quot;reg&quot;,
+                    &quot;name&quot;:&quot;新人报道100乐币&quot;,
+                    &quot;description&quot;:&quot;&quot;,
+                    &quot;accept_level&quot;:&quot;0&quot;,
+                    &quot;tags&quot;:{
+                        &quot;reg&quot;:1
+                    },
+                    &quot;award&quot;:{
+                        &quot;beans&quot;:100,
+                        &quot;cost_beans&quot;:20000
+                    },
+                    &quot;sort_index&quot;:&quot;1&quot;,
+                    &quot;pid&quot;:&quot;0&quot;,
+                    &quot;next&quot;:&quot;0&quot;,
+                    &quot;next_cue&quot;:&quot;0&quot;,
+                    &quot;cid&quot;:&quot;0&quot;,
+                    &quot;total&quot;:&quot;1&quot;
+                }
+            ],
+            &quot;utaskinfo&quot;:[
+                {
+                    &quot;icon&quot;:&quot;reg&quot;,
+                    &quot;sort_index&quot;:&quot;1&quot;,
+                    &quot;name&quot;:&quot;新人报道100乐币&quot;,
+                    &quot;description&quot;:&quot;&quot;,
+                    &quot;accept_level&quot;:&quot;0&quot;,
+                    &quot;pid&quot;:&quot;0&quot;,
+                    &quot;next&quot;:&quot;0&quot;,
+                    &quot;next_cue&quot;:&quot;0&quot;,
+                    &quot;cid&quot;:&quot;0&quot;,
+                    &quot;total&quot;:&quot;1&quot;,
+                    &quot;id&quot;:&quot;1589738&quot;,
+                    &quot;task_id&quot;:&quot;1&quot;,
+                    &quot;user_id&quot;:&quot;100488329&quot;,
+                    &quot;is_reward&quot;:&quot;1&quot;,
+                    &quot;status&quot;:&quot;2&quot;,
+                    &quot;schedule&quot;:&quot;1&quot;
+                }
+            ]
+        }
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |请求状态 0 失败 1 成功  |
+|data |array   |任务信息|
+
+ **返回result-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|tasklist |array   |任务列表  |
+|utaskinfo |array   |已完成任务 |
+
+ **返回result-&gt;data-&gt;tasklist参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|task_id |int   |任务id  |
+|icon |string   |任务相关解说图片 |
+|name |string   |任务名字 |
+|description |string   |任务描述|
+|accept_level |int   |接受任务的级别|
+|tags |array   |前端任务元语标签|
+|award |array   |奖品格式｛“beans”：500&quot;｝  |
+|sort_index |int   |排序  |
+|pid |int   |父任务id 默认为0|
+|next |int   |下个关联任务id  |
+|next_cue |int   |是否提示下一任务  |
+|cid |int   |任务类别id  |
+|total |int   |总进度  |
+
+
+ **返回result-&gt;data-&gt;utaskinfo参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|icon |string   |任务相关解说图片 |
+|sort_index |int   |排序  |
+|name |string   |任务名字 |
+|description |string   |任务描述|
+|accept_level |int   |接受任务的级别|
+|pid |int   |父任务id 默认为0|
+|next |int   |下个关联任务id  |
+|next_cue |int   |是否提示下一任务  |
+|cid |int   |任务类别id  |
+|total |int   |总进度  |
+|id |int   |完成任务列表id  |
+|task_id |int   |任务id  |
+|user_id |int   |用户uid  |
+|is_reward |int   |是否已领取奖品 （0 否 1 是）  |
+|status |int   |是否完成 2已领取  1已完成 0 未完成  |
+|schedule |int   |任务进度 非百分比  |
+
+
+',`order`='99',`item_id`='8',`cat_id`='11',`addtime`='1464578257',`author_uid`='2',`author_username`='admin' WHERE (  page_id = '72'  ) [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0005s ]
+SQL: UPDATE `item` SET `last_update_time`='1464578257' WHERE (  item_id = '8'  ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '72'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T11:17:37+08:00 ] 127.0.0.1 /index.php/Home/item/show?page_id=72&item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T11:17:38+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '72'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T11:29:33+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '72'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T11:29:33+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T11:29:36+08:00 ] 127.0.0.1 /index.php/Home/Item/show?item_id=8&page_id=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T11:29:36+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=72
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '72'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T11:29:37+08:00 ] 127.0.0.1 /index.php/Home/Page/edit?item_id=8&type=new
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  author_uid ='2' and 8 = '8'  ) ORDER BY  addtime desc  LIMIT 1   [ RunTime:0.0010s ]
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T11:29:37+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T11:41:14+08:00 ] 127.0.0.1 /index.php/Home/Page/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0020s ]
+SQL: INSERT INTO `page` (`page_title`,`page_content`,`order`,`item_id`,`cat_id`,`addtime`,`author_uid`,`author_username`) VALUES ('任务更新','简要描述：
+
+- 任务更新
+
+  
+**请求方法：**
+- m_user_task_list 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|uid |是  |int |用户uid|
+
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;32fe6f79-94b6-476b-b555-e54d72a2a45a&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;data&quot;:{
+            &quot;s&quot;:1,
+            &quot;data&quot;:{
+                &quot;schedule&quot;:1,
+                &quot;status&quot;:1
+            }
+        }
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |请求状态 0 失败 1 成功  |
+|data |array   |任务状态|
+
+ **返回result-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |任务状态 0 未完成 1 已完成  |
+|data |array   |任务状态|
+
+ **返回result-&gt;data-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|status |int   |是否完成 2已领取  1已完成 0 未完成  |
+|schedule |int   |任务进度 非百分比  |','99','8','11','1464579674','2','admin') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0005s ]
+SQL: UPDATE `item` SET `last_update_time`='1464579674' WHERE (  item_id = '8'  ) [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '73'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T11:41:14+08:00 ] 127.0.0.1 /index.php/Home/item/show?page_id=73&item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T11:41:14+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '73'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T12:00:50+08:00 ] 127.0.0.1 /index.php/8?page_id=73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\933c8d22c4cc45c26122eb4fbf6193d9.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T12:00:50+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '73'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:07:54+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '73'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-05-30T13:07:54+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0010s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T13:07:59+08:00 ] 127.0.0.1 /index.php/Home/Item/show?item_id=8&page_id=73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:07:59+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=73
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000500s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '73'  ) LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:08:00+08:00 ] 127.0.0.1 /index.php/Home/Page/edit?item_id=8&type=new
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  author_uid ='2' and 8 = '8'  ) ORDER BY  addtime desc  LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:08:00+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:10:27+08:00 ] 127.0.0.1 /index.php/Home/Page/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: INSERT INTO `page` (`page_title`,`page_content`,`order`,`item_id`,`cat_id`,`addtime`,`author_uid`,`author_username`) VALUES ('我的坐骑','简要描述：
+
+- 我的坐骑
+
+  
+**请求方法：**
+- m_user_task_list 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|uid |是  |int |用户uid|
+
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;04b0ef04-d8c0-422e-8845-cdf69dba160a&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;ride_status&quot;:0,
+        &quot;data&quot;:[
+            {
+                &quot;id&quot;:&quot;3110&quot;,
+                &quot;name&quot;:&quot;QQ&quot;,
+                &quot;image&quot;:&quot;qq.png&quot;,
+                &quot;price&quot;:&quot;200000&quot;,
+                &quot;months&quot;:&quot;0.00&quot;,
+                &quot;status&quot;:0,
+                &quot;forever&quot;:&quot;0&quot;,
+                &quot;created_at&quot;:&quot;2016-03-08 17:43:02&quot;,
+                &quot;endline&quot;:&quot;2016-05-05 17:17:30&quot;,
+                &quot;is_played&quot;:&quot;0&quot;,
+                &quot;remain_days&quot;:0
+            }
+        ]
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |请求状态 0 失败 1 成功  |
+|data |array   |任务状态|
+
+ **返回result-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |任务状态 0 未完成 1 已完成  |
+|data |array   |任务状态|
+
+ **返回result-&gt;data-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|status |int   |是否完成 2已领取  1已完成 0 未完成  |
+|schedule |int   |任务进度 非百分比  |','99','8','11','1464585027','2','admin') [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: UPDATE `item` SET `last_update_time`='1464585027' WHERE (  item_id = '8'  ) [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '74'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:10:27+08:00 ] 127.0.0.1 /index.php/Home/item/show?page_id=74&item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0020s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011502s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011502s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T13:10:27+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '74'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T13:10:28+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '71'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T13:10:31+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '71'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:10:32+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T13:10:36+08:00 ] 127.0.0.1 /index.php/Home/Item/show?item_id=8&page_id=71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0020s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001500s ]
+
+[ 2016-05-30T13:10:36+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=71
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '71'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:10:37+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '74'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:10:39+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '74'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:10:39+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T13:42:15+08:00 ] 127.0.0.1 /index.php/Home/page/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '74'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page_history` [ RunTime:0.0010s ]
+SQL: INSERT INTO `page_history` (`page_id`,`item_id`,`cat_id`,`page_title`,`page_content`,`order`,`addtime`,`author_uid`,`author_username`) VALUES ('74','8','11','我的坐骑','简要描述：
+
+- 我的坐骑
+
+  
+**请求方法：**
+- m_user_task_list 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|uid |是  |int |用户uid|
+
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;04b0ef04-d8c0-422e-8845-cdf69dba160a&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;ride_status&quot;:0,
+        &quot;data&quot;:[
+            {
+                &quot;id&quot;:&quot;3110&quot;,
+                &quot;name&quot;:&quot;QQ&quot;,
+                &quot;image&quot;:&quot;qq.png&quot;,
+                &quot;price&quot;:&quot;200000&quot;,
+                &quot;months&quot;:&quot;0.00&quot;,
+                &quot;status&quot;:0,
+                &quot;forever&quot;:&quot;0&quot;,
+                &quot;created_at&quot;:&quot;2016-03-08 17:43:02&quot;,
+                &quot;endline&quot;:&quot;2016-05-05 17:17:30&quot;,
+                &quot;is_played&quot;:&quot;0&quot;,
+                &quot;remain_days&quot;:0
+            }
+        ]
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |请求状态 0 失败 1 成功  |
+|data |array   |任务状态|
+
+ **返回result-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |任务状态 0 未完成 1 已完成  |
+|data |array   |任务状态|
+
+ **返回result-&gt;data-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|status |int   |是否完成 2已领取  1已完成 0 未完成  |
+|schedule |int   |任务进度 非百分比  |','99','1464585027','2','admin') [ RunTime:0.0005s ]
+SQL: UPDATE `page` SET `page_title`='我的坐骑',`page_content`='简要描述：
+
+- 我的坐骑
+
+  
+**请求方法：**
+- m_user_mounts 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|uid |是  |int |用户uid|
+|secret |是  |string |登录秘钥(登录时返回secret)|
+
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;04b0ef04-d8c0-422e-8845-cdf69dba160a&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;ride_status&quot;:0,
+        &quot;data&quot;:[
+            {
+                &quot;id&quot;:&quot;3110&quot;,
+                &quot;name&quot;:&quot;QQ&quot;,
+                &quot;image&quot;:&quot;qq.png&quot;,
+                &quot;price&quot;:&quot;200000&quot;,
+                &quot;months&quot;:&quot;0.00&quot;,
+                &quot;status&quot;:0,
+                &quot;forever&quot;:&quot;0&quot;,
+                &quot;created_at&quot;:&quot;2016-03-08 17:43:02&quot;,
+                &quot;endline&quot;:&quot;2016-05-05 17:17:30&quot;,
+                &quot;is_played&quot;:&quot;0&quot;,
+                &quot;remain_days&quot;:0
+            }
+        ]
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |请求状态 0 失败 1 成功  |
+|ride_status |int   |坐骑状态(0 已过期 1 当前正在使用的 2 可用)  |
+|data |array   |坐骑信息|
+
+ **返回result-&gt;data参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|id |int   |购买的坐骑id|
+|name |string   |坐骑名称|
+|image |string   |坐骑图片地址|
+|price |int   |坐骑的价格|
+|months |float   |购买的月数|
+|status |int   |坐骑的状态(0 已过期 1 当前正在使用的 2 可用)|
+|forever |int   |是否永久(0 否 1 是 )|
+|created_at |timestamp   |创建时间|
+|endline |array   |任务状态|
+|is_played |int   |是否已使用（0 否 1 是）|
+|remain_days |int   |座驾剩余天数|',`order`='99',`item_id`='8',`cat_id`='11',`addtime`='1464586935',`author_uid`='2',`author_username`='admin' WHERE (  page_id = '74'  ) [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: UPDATE `item` SET `last_update_time`='1464586935' WHERE (  item_id = '8'  ) [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '74'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T13:42:15+08:00 ] 127.0.0.1 /index.php/Home/item/show?page_id=74&item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0000s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T13:42:15+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '74'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2016-05-30T13:52:03+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '74'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006500s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006500s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:52:04+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0015s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:52:07+08:00 ] 127.0.0.1 /index.php/Home/Item/show?item_id=8&page_id=74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0015s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000501s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000501s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:52:07+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=74
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '74'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T13:52:08+08:00 ] 127.0.0.1 /index.php/Home/Page/edit?item_id=8&type=new
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  author_uid ='2' and 8 = '8'  ) ORDER BY  addtime desc  LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T13:52:08+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2016-05-30T14:19:55+08:00 ] 127.0.0.1 /index.php/Home/Page/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: INSERT INTO `page` (`page_title`,`page_content`,`order`,`item_id`,`cat_id`,`addtime`,`author_uid`,`author_username`) VALUES ('用户点歌','简要描述：
+
+- 用户点歌
+
+  
+**请求方法：**
+- m_user_mounts 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|uid |是  |int |用户uid|
+|secret |是  |string |登录秘钥(登录时返回secret)|
+|room_id |是  |int |房间号|
+|name |是  |int |用户uid|
+|custom |是  |int | app( 1 ) web（ 2 ）  |
+|leave_message |否  |string | 留言 |
+
+
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;30e88f29-877f-4e9d-a622-251b38afa3ee&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;data&quot;:&quot;点歌成功！&quot;,
+        &quot;msg&quot;:&quot;点歌成功！&quot;
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |请求状态 0 失败 1 成功  |
+|ride_status |int   |坐骑状态(0 已过期 1 当前正在使用的 2 可用)  |
+|data |array   |坐骑信息|','99','8','11','1464589195','2','admin') [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: UPDATE `item` SET `last_update_time`='1464589195' WHERE (  item_id = '8'  ) [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '75'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T14:19:55+08:00 ] 127.0.0.1 /index.php/Home/item/show?page_id=75&item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:19:56+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '75'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T14:20:07+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '75'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T14:20:07+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T14:22:23+08:00 ] 127.0.0.1 /index.php/Home/page/save
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '75'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page_history` [ RunTime:0.0005s ]
+SQL: INSERT INTO `page_history` (`page_id`,`item_id`,`cat_id`,`page_title`,`page_content`,`order`,`addtime`,`author_uid`,`author_username`) VALUES ('75','8','11','用户点歌','简要描述：
+
+- 用户点歌
+
+  
+**请求方法：**
+- m_user_mounts 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|uid |是  |int |用户uid|
+|secret |是  |string |登录秘钥(登录时返回secret)|
+|room_id |是  |int |房间号|
+|name |是  |int |用户uid|
+|custom |是  |int | app( 1 ) web（ 2 ）  |
+|leave_message |否  |string | 留言 |
+
+
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;30e88f29-877f-4e9d-a622-251b38afa3ee&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;data&quot;:&quot;点歌成功！&quot;,
+        &quot;msg&quot;:&quot;点歌成功！&quot;
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |请求状态 0 失败 1 成功  |
+|ride_status |int   |坐骑状态(0 已过期 1 当前正在使用的 2 可用)  |
+|data |array   |坐骑信息|','99','1464589195','2','admin') [ RunTime:0.0005s ]
+SQL: UPDATE `page` SET `page_title`='用户点歌',`page_content`='简要描述：
+
+- 用户点歌
+
+  
+**请求方法：**
+- m_user_mounts 
+  
+**请求方式：**
+- POST 
+
+**参数：** 
+
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|uid |是  |int |用户uid|
+|secret |是  |string |登录秘钥(登录时返回secret)|
+|room_id |是  |int |房间号|
+|name |是  |int |用户uid|
+|custom |是  |int | app( 1 ) web（ 2 ）  |
+|leave_message |否  |string | 留言 |
+
+
+ **返回示例**
+
+``` 
+{
+    &quot;jsonrpc&quot;:&quot;2.0&quot;,
+    &quot;id&quot;:&quot;30e88f29-877f-4e9d-a622-251b38afa3ee&quot;,
+    &quot;result&quot;:{
+        &quot;s&quot;:1,
+        &quot;data&quot;:&quot;点歌成功！&quot;,
+        &quot;msg&quot;:&quot;点歌成功！&quot;
+    }
+}
+                    
+```
+**返回result参数说明** 
+
+|参数名|类型|说明|
+|:-----  |:-----|-----                           |
+|s |int   |请求状态 0 失败 1 成功  |
+|data |string   |返回信息|
+|msg |string   |返回信息|',`order`='99',`item_id`='8',`cat_id`='11',`addtime`='1464589343',`author_uid`='2',`author_username`='admin' WHERE (  page_id = '75'  ) [ RunTime:0.0010s ]
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: UPDATE `item` SET `last_update_time`='1464589343' WHERE (  item_id = '8'  ) [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '75'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:22:23+08:00 ] 127.0.0.1 /index.php/Home/item/show?page_id=75&item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T14:22:23+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '75'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000500s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000500s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2016-05-30T14:22:42+08:00 ] 127.0.0.1 /index.php/Home/page/edit?page_id=75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000501s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '75'  ) LIMIT 1   [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T14:22:42+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2016-05-30T14:22:46+08:00 ] 127.0.0.1 /index.php/Home/Item/show?item_id=8&page_id=75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+NOTIC: [2048] Declaration of Home\Controller\ItemController::show() should be compatible with Think\Controller::show($content, $charset = '', $contentType = '', $prefix = '') D:\PHPnow\htdocs\showdoc\Application\Home\Controller\ItemController.class.php 第 4 行.
+SQL: SHOW COLUMNS FROM `item` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `item` WHERE ( item_id = '8'  ) LIMIT 1   [ RunTime:0.0005s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '0' and item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0000s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `catalog` WHERE ( item_id = '8'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE ( cat_id = '11'  ) ORDER BY  `order` asc    [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: page_id D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\a45e27ab7210323bbf6beb0424918ca7.php 第 99 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009501s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T14:22:46+08:00 ] 127.0.0.1 /index.php/Home/page/index?page_id=75
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  page_id = '75'  ) LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\68bce0ec7afdf8798ef65138f610dc8c.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T14:22:47+08:00 ] 127.0.0.1 /index.php/Home/Page/edit?item_id=8&type=new
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `page` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `page` WHERE (  author_uid ='2' and 8 = '8'  ) ORDER BY  addtime desc  LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 62 行.
+NOTIC: [8] Undefined variable: page D:\PHPnow\htdocs\showdoc\Application\Home\Controller\PageController.class.php 第 71 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: item D:\PHPnow\htdocs\showdoc\Application\Runtime\Cache\Home\647ced87fad8125be8d20ab06e614491.php 第 5 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006501s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
+[ 2016-05-30T14:22:47+08:00 ] 127.0.0.1 /index.php/Home/catalog/catList?item_id=8
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000500s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `catalog` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `catalog` WHERE (  item_id = '8'  ) ORDER BY  'order', addtime asc    [ RunTime:0.0000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000500s ]
+
